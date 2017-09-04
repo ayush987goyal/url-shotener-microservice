@@ -1,27 +1,10 @@
-Welcome to the Glitch BETA
-=========================
+# URL Shortener Micorservice
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+API: *[URL Shortener Microservice](https://url-shortener-microservice-ag.glitch.me/)*
 
-**Glitch** is the friendly commmunity where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+## Free Code Camp User Stories
++ I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.
 
-Find out more [about Glitch](https://glitch.com/about).
++ If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.
 
-
-Your Project
-------------
-
-On the front-end,
-- edit `public/client.js`, `public/style.css` and `views/index.html`
-- drag in `assets`, like images or music, to add them to your project
-
-On the back-end,
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
-
-
-Made by [Fog Creek](https://fogcreek.com/)
--------------------
-
-\ ゜o゜)ノ
++ When I visit that shortened URL, it will redirect me to my original link.
